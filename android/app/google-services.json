@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "610033923121",
+    "project_id": "edgo-d3450",
+    "storage_bucket": "edgo-d3450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610033923121:android:292de837e2dd1f31231110",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610033923121-lcash4sfda111ckgmog3cng69ke6ok08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXI54232-6d4WMzkz6A8TJKJ9EjT366Qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610033923121-lcash4sfda111ckgmog3cng69ke6ok08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
