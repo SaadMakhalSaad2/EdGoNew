@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/screens/wrapper.dart';
+import 'package:get/get.dart';
 import 'package:provider/provider.dart';
 import 'screens/login.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
     return StreamProvider<User?>.value(
       value: user,
       initialData: null,
-      child: MaterialApp(
+      child: GetMaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(

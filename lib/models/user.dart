@@ -1,11 +1,17 @@
-class UserProfile{
+
+import 'package:get/get.dart';
+class UserProfile {
   String name;
   String email;
   String id;
+  String school;
 
-  UserProfile({required this.name, required this.email, required this.id});
+  var grade = ''.obs;
 
-
-
-  
+  UserProfile(
+      {required this.name,
+      required this.email,
+      required this.id,
+      required this.school,
+      required this.grade});
 }

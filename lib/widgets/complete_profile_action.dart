@@ -4,7 +4,8 @@ import 'package:flutter_app/screens/profile_complete.dart';
 import 'package:page_transition/page_transition.dart';
 
 class CompleteProfileAction extends StatelessWidget {
-  const CompleteProfileAction({Key? key}) : super(key: key);
+  final Map? user;
+  const CompleteProfileAction({Key? key, required this.user}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +14,7 @@ class CompleteProfileAction extends StatelessWidget {
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height * 0.15,
       child: GestureDetector(
-        onTap:(){ Constants().moveToPage(page: const ProfileCompleteion(), context: context, type: PageTransitionType.bottomToTop);},
+        onTap:(){ Constants().moveToPage(page:  ProfileCompleteion(user: user), context: context, type: PageTransitionType.bottomToTop);},
         child: Card(
           elevation: 8.0,
           child: Padding(

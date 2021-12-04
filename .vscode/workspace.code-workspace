@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\edgo-web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "edgo-web"
+	}
+}
